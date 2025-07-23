@@ -6,7 +6,7 @@ Libft is a custom implementation of the C standard library functions. This proje
 
 1. Clone the repository
 ```sh
-git clone https://github.com/andrexandre/libft.git ; cd libft
+git clone https://github.com/andrexandre/libft.git ; cd libft/src
 ```
 
 2. Compile the library
