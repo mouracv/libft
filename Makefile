@@ -77,7 +77,7 @@ $(NAME):	$(SRCO)
 all:	$(NAME)
 
 clean:
-		$(RM) $(SRCO)
+		$(RM) $(SRCO) $(SRCO_B)
 
 fclean:	clean
 		$(RM) $(NAME)
@@ -87,8 +87,4 @@ re:	fclean all
 bonus: $(SRCO_B)
 		$(CME) $(NAME) $(SRCO_B)
 
-run:	re
-		rm -f result
-		$(CC) $(FLAGS) -o result main.c -L. -lft
-
-.PHONY: all clean fclean re bonus run
+.PHONY: all clean fclean re bonus
