@@ -105,3 +105,6 @@ make bonus
 
 > [!NOTE]
 > This project is part of the 42 School curriculum
+
+## 👨‍💻 Author
+- [Linkedin](https://www.linkedin.com/in/alexsandro-moreira-2b438a347/)
